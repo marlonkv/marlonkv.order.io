@@ -1,0 +1,44 @@
+@media(max-width:450px) {
+  .display {
+    max-width: 300px;
+  }
+  .display-bg {
+    gap: 15px;
+  }
+
+  .texto {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .texto h1 {
+    font-size: 1.5rem;
+  }
+  .texto p {
+    font-size: .8rem;
+    max-width: 40ch;
+  }
+
+  .plano {
+    grid-template-columns: auto 130px auto;
+    gap: 10px;
+    align-items: center;
+    background: #F5F5F5;
+    padding: 9px 10px;
+    margin-bottom: 13px
+  }
+  .plano p, .plano a {
+    font-size: 0.8rem;
+  }
+  .plano img {
+    width: 38px;
+  }
+
+.botoes {
+  gap: 5px;
+  margin-bottom: 20px;
+  width: 85%;
+}
+.botoes button {
+  height: 45px;
+}
+}
